@@ -1,13 +1,9 @@
+/* cSpell:disable */
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import './Post.css'
 
-const propTypes = {}
-
-const defaultProps = {}
-
-export default function Post(props) {
+export default function Post() {
 	return (
 		<article className="post">
 			<h2>Chapter Three: The Great American Game</h2>
@@ -44,7 +40,7 @@ export default function Post(props) {
 			</p>
 
 			<figure>
-				<img src="https://source.unsplash.com/1000x300" alt="Big Ass Image" />
+				<img src="https://source.unsplash.com/1000x300" alt="Wonderful place" />
 				<figcaption>Super Nice Photo</figcaption>
 			</figure>
 
@@ -134,7 +130,7 @@ export default function Post(props) {
 			</p>
 
 			<figure>
-				<img src="https://source.unsplash.com/1000x700" alt="Big Ass Image" />
+				<img src="https://source.unsplash.com/1000x700" alt="Best place ever" />
 				<figcaption>Super Nice Photo</figcaption>
 			</figure>
 
@@ -177,6 +173,3 @@ export default function Post(props) {
 		</article>
 	)
 }
-
-Post.propTypes = propTypes
-Post.defaultProps = defaultProps
